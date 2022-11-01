@@ -8,6 +8,23 @@
 //   }
 //  console.log(check([]))
 
+// soal 3
+// function basicOp(operation, value1, value2)
+// {
+//   tampung += value1+operation+value2
+  
+// }
+
+// basicOp()
+
+// ('+', 4, 7) --> 11
+// ('-', 15, 18) --> -3
+// ('*', 5, 5) --> 25
+// ('/', 49, 7) --> 7
+
+
+
+
  ///soal 2
  //  describe("Tests", () => {
 //    it("test", () => {
@@ -17,19 +34,18 @@
 //  });
 
 function alphabetPosition(text) {
+
 let alphabet = 'abcdefghijklmnopqrstuvwxyz'
 for (let i = 0; i < alphabet.length; i++) {
 //    console.log(alphabet[i])
 //    console.log(i)
-console.log(alphabet.length)
-if(alphabet[i]=== 'r'){
-           console.log(i) 
+if(text = ''){
+    i+=0
 }
-
-//     if(text ===  alphabet[i]){
-//          i
-//         }
-//     return console.log(text)
+for (let b = 0; b < text.length; b++) {
+  
+}
 }
 }
 alphabetPosition('a')
+

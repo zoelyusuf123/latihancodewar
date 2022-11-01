@@ -66,9 +66,12 @@ let mutualFollowers = [];
 // }
 
 
-for (let index = 0; index < 99 ; index++) {
- if(index >= 5){
- break;
- }
- console.log('makan yuk')
-}
+// for (let index = 0; index < 99 ; index++) {
+//  if(index >= 5){
+//  break;
+//  }
+//  console.log('makan yuk')
+// }
+
+let opration = '+'
+opration.split 
