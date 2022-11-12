@@ -35,17 +35,14 @@
 
 function alphabetPosition(text) {
 
-let alphabet = 'abcdefghijklmnopqrstuvwxyz'
-for (let i = 0; i < alphabet.length; i++) {
-//    console.log(alphabet[i])
-//    console.log(i)
-if(text = ''){
-    i+=0
-}
-for (let b = 0; b < text.length; b++) {
-  
-}
-}
-}
-alphabetPosition('a')
-
+    let alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    for (let i = 0; i < alphabet.length; i++) {
+        for (let b = 0; b < text.length; b++) {
+        if(text[b] === alphabet[i]) {
+             console.log(alphabet.charAt(i))
+        }
+        }
+    }
+    
+    }
+    (alphabetPosition('ania'))  
